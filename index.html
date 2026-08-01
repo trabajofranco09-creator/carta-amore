@@ -3,19 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Para Iriana ⚡ Yerba Mate & Magia</title>
+    <title>Para Iriana ⚡ Magia & Amortentia</title>
     <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Quicksand:wght@500;700&display=swap" rel="stylesheet">
     <style>
         body {
             margin: 0;
             padding: 0;
-            background-color: #121620; /* Fondo nocturno mágico estilo Hogwarts */
+            background-color: #121620;
             font-family: 'Quicksand', sans-serif;
             display: flex;
             justify-content: center;
             align-items: center;
-            height: 100vh;
-            overflow: hidden;
+            min-height: 100vh;
+            overflow-x: hidden;
             color: #f3f0ea;
             user-select: none;
         }
@@ -24,7 +24,7 @@
             text-align: center;
             cursor: pointer;
             width: 100%;
-            max-width: 420px;
+            max-width: 440px;
             padding: 20px;
             box-sizing: border-box;
         }
@@ -32,7 +32,7 @@
         h2 {
             font-size: 24px;
             margin-bottom: 20px;
-            color: #d4af37; /* Tono dorado mágico */
+            color: #d4af37;
             text-shadow: 0 0 10px rgba(212, 175, 55, 0.3);
         }
 
@@ -48,32 +48,49 @@
         }
 
         .letter-box {
-            background: #fdfbf7; /* Color pergamino claro */
+            background: #fdfbf7;
             color: #2c221e;
-            padding: 30px;
+            padding: 25px;
             border-radius: 12px;
             box-shadow: 0 10px 30px rgba(0,0,0,0.5);
             text-align: left;
             font-family: 'Caveat', cursive;
-            font-size: 23px;
-            line-height: 1.5;
+            font-size: 21px;
+            line-height: 1.4;
             animation: fadeIn 0.8s forwards;
-            max-height: 75vh;
+            max-height: 85vh;
             overflow-y: auto;
         }
 
         .letter-box h3 {
             margin-top: 0;
-            font-size: 28px;
-            color: #74151d; /* Rojo escarlata Hogwarts */
+            font-size: 26px;
+            color: #74151d;
             font-family: 'Caveat', cursive;
+            margin-bottom: 10px;
+        }
+
+        .letter-box p {
+            margin: 10px 0;
+        }
+
+        .couple-art {
+            text-align: center;
+            font-size: 50px;
+            margin: 15px 0 5px 0;
+            animation: pulseDance 2s infinite ease-in-out;
+        }
+
+        @keyframes pulseDance {
+            0%, 100% { transform: scale(1) rotate(0deg); }
+            50% { transform: scale(1.08) rotate(-2deg); }
         }
 
         .firma {
-            margin-top: 20px;
+            margin-top: 15px;
             text-align: right;
             font-size: 22px;
-            color: #552583; /* Toque mágico nocturno */
+            color: #552583;
         }
 
         @keyframes fadeIn {
@@ -85,7 +102,6 @@
             font-size: 13px;
             color: #a3a3a3;
             margin-top: 15px;
-            letter-style: italic;
         }
     </style>
 </head>
@@ -118,9 +134,10 @@
                 content: `
                     <div class="letter-box">
                         <h3>Mi querida Iriana,</h3>
-                        <p>Si me preguntaran a qué huele mi Amortentia, no dudaría ni un segundo: huele exactamente a ti, a tus risas y a todos los momentos mágicos que compartimos. Ni el mejor giratiempo podría hacerme desear cambiar un solo segundo de los días a tu lado.</p>
-                        <p>En este Día de la Novia quiero recordarte que eres mi persona favorita en este mundo (incluso más que el Quidditch y todo Hogwarts juntos). Gracias por hacer que mi vida entera se sienta como unhechizo constante de felicidad.</p>
-                        <div class="firma">Con todo mi amor y magia, ⚡✨</div>
+                        <p>Si me preguntaran a qué huele mi Amortentia, no dudaría ni un solo segundo: huele exactamente a ti, a tus risas y a cada instante que hemos compartido. Eres mi deseo en el espejo de Oesed, así como el recuerdo feliz que uso para invocar mi Patronus.</p>
+                        <p>Hoy, en el Día de la Novia (aunque aún no llevemos ese título de forma oficial), quiero recordarte que te has convertido en una de mis personas favoritas. Gracias por alegrarme cada día y por hacer que la vida se sienta un poco más mágica. Eres mi lugar seguro, así como Hogwarts lo fue para Harry.</p>
+                        <div class="couple-art" title="Harry y Ginny bailando">⚡💃🕺✨</div>
+                        <div class="firma">Te adoro Mimi ♥️</div>
                     </div>
                 `
             }
